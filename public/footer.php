@@ -1,10 +1,5 @@
-			<hr>
-
-			<div class="footer">
-				<p>
-					&copy; CITM 2013
-				</p>
-			</div>
+		<div class="footer">
+			&copy; CITM 2013
 		</div>
 	</body>
 </html>

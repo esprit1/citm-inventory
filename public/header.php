@@ -7,19 +7,13 @@
 		<meta name="description" content="">
 		<meta name="author" content="">
 
-		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+		<!-- <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"> -->
 		<link href="datepicker/css/datepicker.css" rel="stylesheet">
 		<link href="style.css" type="text/css" rel="stylesheet">
 	</head>
 
 	<body>
 
-		<div class="container-narrow">
-
-			<div class="masthead">
-				<h3 class="muted">CITM</h3>
-			</div>
-
-			<hr>
-
-			<div id="content" class="row-fluid marketing">
+		<div class="header">
+			<h3 class="muted">CITM</h3>
+		</div>
