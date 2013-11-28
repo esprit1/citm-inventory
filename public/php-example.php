@@ -40,7 +40,7 @@
 			$dbpass = "aRLCZKgz";
 			$dbname = "citm";
 
-			$con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
+			$con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname, 3306);
 
 			// Check connection
 			if (mysqli_connect_errno($con)) {
