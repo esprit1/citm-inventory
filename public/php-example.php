@@ -102,6 +102,8 @@
 
 		<?php } ?> 
 
+		<?php echo phpinfo(); ?>
+
 		</div>
 	</body>
 </html>
