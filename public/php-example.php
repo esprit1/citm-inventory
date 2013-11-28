@@ -30,12 +30,12 @@
 			}
 
 			// variables
-			$var = "<br/><br/>variables do not need a type.  their name starts with a $<br/><br/>";
+			$var = "<br/><br/>variables do not need a type.  their name starts with a dollar sign ($).<br/><br/>";
 			echo($var);
 
 			// mysql connection
-			// $dbhost = "tunnel.pagodabox.com";
-			$dbhost = "127.0.0.1";
+			$dbhost = "tunnel.pagodabox.com";
+			// $dbhost = "127.0.0.1";
 			$dbuser = "leeanna";
 			$dbpass = "aRLCZKgz";
 			$dbname = "citm";
