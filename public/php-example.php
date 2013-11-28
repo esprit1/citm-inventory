@@ -40,7 +40,7 @@
 			$dbpass = "aRLCZKgz";
 			$dbname = "citm";
 
-			$con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+			$con = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
 			// Check connection
 			if (mysqli_connect_errno($con)) {
@@ -101,8 +101,6 @@
 			</div>
 
 		<?php } ?> 
-
-		<?php echo phpinfo(); ?>
 
 		</div>
 	</body>
