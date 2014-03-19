@@ -1,0 +1,274 @@
+body {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	/* background-image: url('content/light_alu.png'); 
+	background-repeat: repeat; */
+	background-color: #DFDFDF;
+	width: 100%;
+    font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", arial, sans;
+    font-size: 13px;
+}
+
+.muted {
+	color: #999999;
+}
+
+h3 {
+	font-size:24.5px;
+	line-height: 40px
+	margin: 10px 0;
+	font-family: inherit;
+	font-weight: bold;
+	text-rendering: optimizelegibility;
+}
+
+.footer {
+	margin: 0 auto;
+	margin-top: 10px;
+	padding: 0;
+	width: 984px;
+	height: 60px;
+	position: relative;
+	z-index: 1;
+}
+
+.header {
+	margin: 0 auto;
+	padding: 0;
+	width: 984px;
+	height: 60px;
+	position: relative;
+	z-index: 1;
+}
+
+/* Custom container */
+.container-narrow {
+	margin: 0 auto;
+	max-width: 998px;
+}
+.container-narrow > hr {
+	margin: 10px 0;
+}
+
+.wrapper.content {
+	clear: both;
+	margin: 0 auto;
+	position: relative;
+	width: 984px;
+}
+
+/* Container Shadow */
+.shadow {
+	background-color: white;
+	-moz-box-shadow: 2.5px 2.5px 5px #999;
+	-webkit-box-shadow: 2.5px 2.5px 5px #999;
+	-moz-box-shadow: -2.5px 2.5px 5px #999;
+	-webkit-box-shadow: -2.5px 2.5px 5px #999;
+	position: relative;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+	min-height: 535px;
+}
+
+/* Navigation */
+
+.nav {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1f4f5), to(#e3e5e6));
+	background: -webkit-linear-gradient(top, #f1f4f5, #e3e5e6);
+	background: -moz-linear-gradient(top, #f1f4f5, #e3e5e6);
+	background: -ms-linear-gradient(top, #f1f4f5, #e3e5e6);
+	background: -o-linear-gradient(top, #f1f4f5, #e3e5e6);
+	-webkit-box-shadow: 0px 1px 5px #999;
+	-moz-box-shadow: 0px 1px 5px #999;
+	box-shadow: 0px 1px 5px #999;
+	margin: 0 0 0 -7px;
+	padding: 0;
+	width: 998px;
+	height: 33px;
+	display: block;
+	position: relative;
+}
+
+.nav ul, ul li {
+    list-style-type: none;
+    list-style-position: outside
+}
+
+.nav li a {
+    margin: 0;
+	padding: 1px 20px 0;
+	display: block;
+	color: #555555;
+	font-size: 13px;
+	line-height: 33px;
+	text-decoration: none;
+}
+
+.nav li:hover a {
+    color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nav li {
+	float: left;
+	border-right: 1px solid #DADBDC;
+	position: relative;
+}
+
+.nav li:hover {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#949494), to(#808080));
+	background: -webkit-linear-gradient(top, #949494, #808080);
+	background: -moz-linear-gradient(top, #949494, #808080);
+	background: -ms-linear-gradient(top, #949494, #808080);
+	background: -o-linear-gradient(top, #949494, #808080);
+}
+
+.nav:before {
+	-webkit-transform: rotate(-135deg);
+	-moz-transform: rotate(-135deg);
+	-o-transform: rotate(-135deg);
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 2px;
+	border: 5px solid;
+	border-color: #939394 transparent transparent transparent;
+}
+
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+.nav:after {
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	right: 2px;
+	border: 5px solid;
+	border-color: #939394 transparent transparent transparent;
+}
+
+/* Dashboard */
+
+.dashboard.background {
+	margin: 0;
+	padding: 0px 0 0 0;
+	width: auto;
+	clear: both;
+}
+
+.dashboard.header {
+	position: relative;
+	float: left;
+	width: 100%;
+}
+
+.dashboard.title {
+	display: inline-block; 
+	position: relative; 
+	line-height: 35px; 
+	font-size: 16px; 
+	color: #787878; 
+	padding: 0 0 0 5px;
+}
+
+.dashboard.content {
+	margin: 0;
+	padding: 20px 5px 5px 5px;
+	width: auto;
+	clear: both;
+	color: #787878; 
+}
+
+/* Accordion */
+.accordion {
+	width: auto;
+	overflow: hidden;
+	margin: 10px;
+	color: #474747;
+	background-color: #414141;
+	padding: 10px;
+}
+
+.accordion section{
+	float:left;
+	overflow: hidden;
+	color: #333;
+	cursor: pointer;
+	background-color: #333;
+	margin: 3px;
+}
+
+.accordion section:hover {
+	background-color: #444;
+}
+
+.accordion section p {
+	display:none;
+}
+
+.accordion section:after{
+	position: relative;
+	font-size: 24px;
+	color: #000;
+	font-weight: bold;
+}
+
+.accordion section:target {   
+      background:#FFF;   
+      padding:10px;  
+}  
+.accordion section:target:hover {   
+      background:#FFF;   
+}  
+.accordion section:target h2 {  
+      width:100%;  
+}  
+.accordion section:target h2 a{   
+      color:#333;   
+      padding:0;  
+}  
+.accordion section:target p {  
+      display:block;  
+}  
+.accordion section h2 a{  
+      padding:8px 10px;  
+      display:block;   
+      font-size:16px;   
+      font-weight:normal;  
+      color:#eee;   
+      text-decoration:none;   
+}  
+
+.vertical section{   
+     width:100%;   
+     height:40px;   
+     -webkit-transition:height 0.2s ease-out;  
+     -moz-transition:height 0.2s ease-out;  
+     -o-transition:height 0.2s ease-out;  
+     transition:height 0.2s ease-out;  
+}  
+  
+/*Set height of the slide*/  
+.vertical :target{   
+     height:250px;   
+     width:97%;  
+}  
+
+.vertical section h2 {   
+     position:relative;   
+     left:0;   
+     top:-15px;   
+}  
+/*Set position of the number on the slide*/  
+.vertical section:after{   
+      top:-60px;  
+      left:810px;  
+}  
+.vertical section:target:after{   
+      left:-9999px;  
+}  
