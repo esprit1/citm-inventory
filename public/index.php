@@ -1,31 +1,20 @@
-<?php
-require '../vendor/autoload.php';
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CITM</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
 
-// Prepare app
-$app = new \Slim\Slim(array(
-    'templates.path' => '../templates',
-    'log.level' => 4,
-    'log.enabled' => true,
-    'log.writer' => new \Slim\Extras\Log\DateTimeFileWriter(array(
-        'path' => '../var/logs',
-        'name_format' => 'y-m-d'
-    ))
-));
+        <!-- <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"> -->
+        <link href="datepicker/css/datepicker.css" rel="stylesheet">
+        <link href="style.css" type="text/css" rel="stylesheet">
+    </head>
 
-// Prepare view
-\Slim\Extras\Views\Twig::$twigOptions = array(
-    'charset' => 'utf-8',
-    'cache' => realpath('../var/cache'),
-    'auto_reload' => true,
-    'strict_variables' => false,
-    'autoescape' => true
-);
-$app->view(new \Slim\Extras\Views\Twig());
-
-// Define routes
-$app->get('/', function () use ($app) {
-    $app->render('index.html');
-});
-
-// Run app
-$app->run();
+    <body>
+        <div class="header">
+            <h3 class="muted">CITM</h3>
+        </div>
+    </body>
+</html>
